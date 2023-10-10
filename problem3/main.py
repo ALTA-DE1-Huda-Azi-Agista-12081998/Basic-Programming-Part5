@@ -1,6 +1,10 @@
 def join_array_remove_duplicate(arrayA, arrayB):
-    # your code here
-    return []
+    
+    unique_set = set(arrayA + arrayB)
+  
+    result = list(unique_set)
+    return result
+    
 
 if __name__ == '__main__':
     # Test cases
